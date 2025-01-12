@@ -1,4 +1,5 @@
 import os
+import re
 import mimetypes
 from datetime import datetime
 
@@ -13,8 +14,13 @@ def get_folder():
 def get_filename():
     while True:
         filename = input("[INPUT] Enter filename: ").strip()
-        filename = ''.join(ch for ch in filename if ch.isalnum())
+        filename = clean_input(filename)
         return filename
+        
+def clean_input(input_string):
+    pattern = re.compile(r'[^a-zA-Z0-9_-]')
+    cleaned_string = pattern.sub('', input_string)
+    return cleaned_string
 
 def is_image(file_path):
     mime_type, _ = mimetypes.guess_type(file_path)
