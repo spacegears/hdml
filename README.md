@@ -2,7 +2,7 @@
 hard disk media list
 
 ## What is this thing?
-Well, the name isn't quite accurate but I'll explain: you have (media) files in their dedicated folders - including subfolders - with an image file as preview (or cover art) right next to each one of them. You want to have a simple overview of what's in your folder(s), perhaps a grid of images that you can scroll through in your browser. This simple `Python` script will generate that `HTML` file for you. No dependencies and around 90 lines of code, with some `CSS` included to make the result responsive.
+Well, the name isn't quite accurate but I'll explain: you have (media) files in their dedicated folders - including subfolders - with an image file as preview (or cover art) right next to each one of them. You want to have a simple overview of what's in your folder(s), perhaps a grid of images that you can scroll through in your browser. This simple `Python` script will generate that `HTML` file for you. No dependencies and around 100 lines of code, with some `CSS` included to make the result responsive.
 
 Example: preferred file/folder structure
 
