@@ -35,8 +35,5 @@ Note:
 * You might want to use images with the same size, or at least the same ratio
 * Items are ordered by the names of the images
 
-## Screenshot
-![hdml](https://github.com/user-attachments/assets/698eb2bb-f73a-4ca9-93d7-55806ddf42c9)
-
 ## This is too simple
 That's for a good reason, less is more. For something more advanced, you might want to check out [Snap2HTML](https://github.com/rlv-dan/Snap2HTML) (Windows) or [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML) (Linux).
